@@ -1,0 +1,56 @@
+{
+	"configVersion": "v2",
+	"app": {
+		"appId": 1004915,
+		"appName": "核酸码展示器",
+		"appType": "app",
+		"version": {
+			"code": 2,
+			"name": "0.1.1"
+		},
+		"icon": "icon.png",
+		"vender": "LC",
+		"description": "用于展示核酸码。"
+	},
+	"permissions": [],
+	"runtime": {
+		"apiVersion": {
+			"compatible": "1.0.0",
+			"target": "1.0.1",
+			"minVersion": "1.0.0"
+		}
+	},
+	"debug": false,
+	"targets": {
+		"gtr3-pro": {
+			"module": {
+				"page": {
+					"pages": [
+						"page/gtr3-pro/home/index.page"
+					],
+					"window": {
+						"backgroundColor": "#000000",
+						"backgroundTextStyle": "dark"
+					}
+				}
+			},
+			"platforms": [
+				{
+					"name": "gtr3-pro",
+					"deviceSource": 229
+				},
+				{
+					"name": "gtr3-pro-w",
+					"deviceSource": 230
+				}
+			],
+			"designWidth": 480
+		}
+	},
+	"i18n": {
+		"zh-CN": {
+			"appName": "核酸码展示器"
+		}
+	},
+	"defaultLanguage": "zh-CN"
+}

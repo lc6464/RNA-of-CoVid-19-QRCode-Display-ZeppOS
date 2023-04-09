@@ -1,0 +1,3 @@
+
+msgid "appName"
+msgstr "核酸码展示器"
